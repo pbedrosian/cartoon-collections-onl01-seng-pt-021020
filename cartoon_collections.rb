@@ -3,6 +3,7 @@ require 'pry'
 def roll_call_dwarves(array)
   array.each.with_index(1) do
     |name| puts "#{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
