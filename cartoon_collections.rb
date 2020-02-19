@@ -18,6 +18,5 @@ end
 
 def find_the_cheese(array)
   array.find {|test| test == "cheese"}
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  #cheese_types = ["cheddar", "gouda", "camembert"]
 end
