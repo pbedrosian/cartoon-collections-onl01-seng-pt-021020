@@ -1,5 +1,8 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+require 'pry'
+
+def roll_call_dwarves(array)
+  array.each.with_index(1) do
+    |name| puts "#{name}"
 end
 
 def summon_captain_planet# code an argument here
