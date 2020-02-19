@@ -2,7 +2,7 @@ require 'pry'
 
 def roll_call_dwarves(array)
   array.each.with_index(1) do
-    |name| puts "#{name}"
+    |name, index| puts "#{index} #{name}"
   end
 end
 
